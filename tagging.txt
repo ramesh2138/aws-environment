@@ -1,0 +1,6 @@
+#!bin/bash
+# resource id= instance id
+# key=learning, Value=test
+#key=environmet, Value=us-east-1
+aws ec2 create-tags --resources resource id=i-069d387075a1c5f2 --tags Key=Stack,Value=production key=learning,Value=test key=environment,value=us-east-1
+#endoffile
